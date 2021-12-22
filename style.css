@@ -92,7 +92,7 @@ html{
 }
 
 body{
-    background: #10101a;
+    background: url(BG.gif);
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 400;
