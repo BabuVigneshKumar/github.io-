@@ -17,7 +17,7 @@
     background: #3bb78f;
     width: 0;
     height: 15%;
-    transition: 0.5s ease;
+    transition: 0.8s ease;
     cursor: pointer;
 }
   
@@ -40,7 +40,7 @@
     position: absolute;
     left: 0%;
     top: 0%;
-    background-image: url(ok.gif);
+    background-image: url(intro1.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
@@ -92,8 +92,8 @@ html{
 }
 
 body{
-    background: url(BG.gif);
-    font-family: sans-serif;
+    background: #0b0b13;
+    font-family: "Open Sans",sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
@@ -330,10 +330,10 @@ button.toggler-menu{
 
 .box h6{
     color: white;
-    font-size: 20px;
+    font-size: 80px;
     font-weight: 400;
     margin: 0 0 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'La Belle Aurore',cursive;
    
 }
 
@@ -343,7 +343,7 @@ button.toggler-menu{
     line-height: 1;
     margin: 0 0 20px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'La Belle Aurore',cursive;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     background: url(back.png);
