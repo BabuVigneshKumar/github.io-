@@ -6,7 +6,7 @@
 
 ::-webkit-scrollbar-track{
     width: 10px;
-    background: #212529;
+    background: #1d1d1d;
     border-left: 0 solid white;
     border-right: 0 solid white;
 }
@@ -92,7 +92,7 @@ html{
 }
 
 body{
-    background: #0b0b13;
+    background: #1d1d1d;
     font-family: "Open Sans",sans-serif;
     font-size: 20px;
     font-weight: 200;
@@ -153,7 +153,7 @@ a:hover{
 
 
 .nav-menu li+li{
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid #1d1d1d;
 }
 
 
