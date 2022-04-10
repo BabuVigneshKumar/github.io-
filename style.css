@@ -17,7 +17,7 @@
     background: #3bb78f;
     width: 0;
     height: 15%;
-    transition: 0.8s ease;
+    transition: 0.5s ease;
     cursor: pointer;
 }
   
@@ -92,13 +92,30 @@ html{
 }
 
 body{
-    background: #1d1d1d;
+    background: linear-gradient(to right, #833ab4,#fd1dfd,#fcb045);
+    background-size: 400% 400%;
+    animation: animated-background 10s infinite ease-in-out;
     font-family: "Open Sans",sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
-
- 
+.body-animated-background{
+    background: linear-gradient(to right, #833ab4,#fd1dfd,#fcb045);
+    background-size: 400% 400%;
+    animation: animated-background 10s infinite ease-in-out;
+   
+}
+@keyframes  animated-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
 *{
     outline: none !important;
 }
@@ -119,7 +136,7 @@ a:hover{
     position: fixed;
     bottom: 0;
     top: 0;
-    background: #0c0c14;
+    background: linear-gradient(to right, #833ab4);
     border-right: 1px solid rgba(11,11,19,0.1);
     z-index: 99999;
 }
