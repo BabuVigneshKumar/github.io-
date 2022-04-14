@@ -92,16 +92,16 @@ html{
 }
 
 body{
-    background: linear-gradient(to right, #833ab4,#fd1dfd,#fcb045);
-    background-size: 400% 400%;
+    background: linear-gradient(to right, #833ab4,#fcb045);
+    /* background-size: 400% 400%; */
     animation: animated-background 10s infinite ease-in-out;
     font-family: "Open Sans",sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
 .body-animated-background{
-    background: linear-gradient(to right, #833ab4,#fd1dfd,#fcb045);
-    background-size: 400% 400%;
+    background: linear-gradient(to right, #833ab4,#fcb045);
+    /* background-size: 400% 400%; */
     animation: animated-background 10s infinite ease-in-out;
    
 }
